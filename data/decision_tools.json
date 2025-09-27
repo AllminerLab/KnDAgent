@@ -1,0 +1,54 @@
+{
+  "tools": [
+    {
+      "id": "mlp_classifier",
+      "name": "Multi-Layer Perceptron Classifier",
+      "description": "Neural network-based classifier for complex pattern recognition in medical data",
+      "input_requirements": ["Numerical features", "Categorical features", "Patient demographics", "Clinical measurements"],
+      "output_format": "Classification probability + Confidence score + Feature importance",
+      "applicable_scenarios": ["Emergency triage", "Readmission prediction", "Medication recommendation", "DDI detection"],
+      "accuracy": "92%",
+      "processing_time": "< 30 seconds"
+    },
+    {
+      "id": "xgboost_classifier",
+      "name": "XGBoost Classifier",
+      "description": "Gradient boosting framework for high-performance classification with feature importance analysis",
+      "input_requirements": ["Structured data", "Numerical features", "Categorical features", "Target labels"],
+      "output_format": "Classification result + Probability distribution + Feature importance ranking",
+      "applicable_scenarios": ["Emergency triage", "Readmission prediction", "Medication recommendation", "DDI detection"],
+      "accuracy": "94%",
+      "processing_time": "< 20 seconds"
+    },
+    {
+      "id": "lightgbm_classifier",
+      "name": "LightGBM Classifier",
+      "description": "Light gradient boosting machine for fast and accurate classification with low memory usage",
+      "input_requirements": ["Structured data", "Numerical features", "Categorical features", "Target labels"],
+      "output_format": "Classification result + Probability distribution + Feature importance ranking",
+      "applicable_scenarios": ["Emergency triage", "Readmission prediction", "Medication recommendation", "DDI detection"],
+      "accuracy": "93%",
+      "processing_time": "< 15 seconds"
+    },
+    {
+      "id": "random_forest_classifier",
+      "name": "Random Forest Classifier",
+      "description": "Ensemble learning method using multiple decision trees for robust classification",
+      "input_requirements": ["Structured data", "Numerical features", "Categorical features", "Target labels"],
+      "output_format": "Classification result + Probability distribution + Feature importance ranking",
+      "applicable_scenarios": ["Emergency triage", "Readmission prediction", "Medication recommendation", "DDI detection"],
+      "accuracy": "91%",
+      "processing_time": "< 25 seconds"
+    },
+    {
+      "id": "logistic_regression",
+      "name": "Logistic Regression",
+      "description": "Linear classification model for interpretable binary and multiclass classification",
+      "input_requirements": ["Numerical features", "Categorical features (encoded)", "Target labels"],
+      "output_format": "Classification result + Probability distribution + Coefficient analysis",
+      "applicable_scenarios": ["Emergency triage", "Readmission prediction", "Medication recommendation", "DDI detection"],
+      "accuracy": "89%",
+      "processing_time": "< 10 seconds"
+    }
+  ]
+}

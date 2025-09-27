@@ -1,0 +1,39 @@
+{
+  "knowledge_base": [
+    {
+      "id": "emergency_triage_1",
+      "title": "Emergency Triage Basic Principles",
+      "content": "Emergency triage is the process of assigning patients to different priority treatment areas based on the urgency and severity of their condition. Basic principles include: 1) Vital signs assessment priority; 2) Symptom severity grading; 3) Time sensitivity consideration; 4) Resource allocation optimization.",
+      "keywords": ["emergency triage", "vital signs", "priority", "severity", "time sensitivity"],
+      "category": "triage_principles"
+    },
+    {
+      "id": "emergency_triage_2", 
+      "title": "Emergency Triage Classification Standards",
+      "content": "According to international standards, emergency triage is typically divided into 5 levels: Level 1 (Critical) - immediate rescue; Level 2 (Severe) - treatment within 10 minutes; Level 3 (Urgent) - treatment within 30 minutes; Level 4 (Less urgent) - treatment within 60 minutes; Level 5 (Non-urgent) - treatment within 120 minutes.",
+      "keywords": ["triage classification", "critical", "severe", "urgent", "less urgent", "non-urgent"],
+      "category": "classification_standards"
+    },
+    {
+      "id": "readmission_prediction_1",
+      "title": "Readmission Risk Factors",
+      "content": "Key risk factors for hospital readmission include: 1) Previous admission history; 2) Chronic disease burden; 3) Age and comorbidities; 4) Social determinants of health; 5) Medication adherence; 6) Follow-up care quality.",
+      "keywords": ["readmission", "risk factors", "chronic disease", "comorbidities", "medication adherence"],
+      "category": "readmission_prediction"
+    },
+    {
+      "id": "medication_recommendation_1",
+      "title": "Medication Recommendation Principles",
+      "content": "Medication recommendation principles include: 1) Evidence-based selection; 2) Patient-specific factors; 3) Drug interactions consideration; 4) Dosage optimization; 5) Safety monitoring; 6) Cost-effectiveness analysis.",
+      "keywords": ["medication recommendation", "evidence-based", "patient-specific", "drug interactions", "dosage optimization"],
+      "category": "medication_recommendation"
+    },
+    {
+      "id": "ddi_detection_1",
+      "title": "Drug-Drug Interaction (DDI) Detection",
+      "content": "DDI detection involves: 1) Pharmacokinetic interactions (absorption, distribution, metabolism, excretion); 2) Pharmacodynamic interactions (synergistic, antagonistic effects); 3) Severity classification (minor, moderate, major, contraindicated); 4) Clinical significance assessment; 5) Management strategies and monitoring recommendations.",
+      "keywords": ["DDI", "drug-drug interaction", "pharmacokinetic", "pharmacodynamic", "severity classification", "clinical significance"],
+      "category": "ddi_detection"
+    }
+  ]
+}
