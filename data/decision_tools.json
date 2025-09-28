@@ -2,7 +2,7 @@
   "tools": [
     {
       "id": "mlp_classifier",
-      "name": "Multi-Layer Perceptron Classifier",
+      "name": "MLP",
       "description": "Neural network-based classifier for complex pattern recognition in medical data",
       "input_requirements": ["Numerical features", "Categorical features", "Patient demographics", "Clinical measurements"],
       "output_format": "Classification probability + Confidence score + Feature importance",
